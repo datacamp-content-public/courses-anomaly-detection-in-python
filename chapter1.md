@@ -40,3 +40,16 @@ This is an example exercise.
 ```{python}
 
 ```
+
+---
+
+## Clustering with Multi-Dimension Data
+
+```yaml
+type: VideoExercise
+key: 8faaa30407
+xp: 50
+```
+
+`@projector_key`
+d91f4543e9bba8946b450fbc3beaa543
