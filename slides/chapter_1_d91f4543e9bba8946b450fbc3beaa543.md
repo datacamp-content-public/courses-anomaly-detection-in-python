@@ -23,6 +23,26 @@ At times, it'll be evident with one or a few outliers extending outside of a box
 
 
 ---
+## Quick Charts for Spotting the outliers
+
+```yaml
+type: "TwoColumns"
+key: "f73e214a6d"
+```
+
+`@part1`
+
+
+
+`@part2`
+
+
+
+`@script`
+
+
+
+---
 ## Final Slide
 
 ```yaml
