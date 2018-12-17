@@ -54,6 +54,31 @@ I'm going to assume that you have these packages installed, pandas and matplotli
 
 
 ---
+## Now the Multi-Dimensional Data Visual
+
+```yaml
+type: "TwoColumns"
+key: "acfcdcc26c"
+```
+
+`@part1`
+![](https://assets.datacamp.com/production/repositories/4258/datasets/87bb3ef9050ef651b459d65cc0e0fbc7fd31aeab/scatter_sample.png)
+
+
+`@part2`
+```
+#plot scatter plot
+plt.scatter(df['texture_mean'], df['smoothness_mean'])
+#display plot
+plt.show()
+```
+
+
+`@script`
+
+
+
+---
 ## Final Slide
 
 ```yaml
