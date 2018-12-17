@@ -79,6 +79,22 @@ plt.show()
 
 
 ---
+## Multi-Dimensional Clustering
+
+```yaml
+type: "FullImageSlide"
+key: "ca8826ad63"
+```
+
+`@part1`
+![](https://assets.datacamp.com/production/repositories/4258/datasets/bc2a5b296d50c717598d15da114b173c3607085d/cluster_preview.png)
+
+
+`@script`
+You may be familiar with clustering. K Nearest Neighbors (KNN)
+
+
+---
 ## Final Slide
 
 ```yaml
