@@ -19,7 +19,9 @@ title: Data Analyst
 `@script`
 Understanding how to spot an anomaly will be crucial as we peel back to the layers to detection in larger datasets. 
 
-At times, it'll be evident with one or a few outliers extending outside of a boxplot. Or the anomaly will be present but far from associative clusters. That "distance" and logic behind its measurement will be uncovered in this chapter.
+At times, it'll be evident with one or a few outliers extending outside of a boxplot. Or the anomaly will be present but far from associative clusters. That "distance" and logic behind its measurement will be uncovered in this chapter. 
+
+First up, let's look at one more time at the visuals.
 
 
 ---
