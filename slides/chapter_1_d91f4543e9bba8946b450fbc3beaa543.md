@@ -79,7 +79,7 @@ plt.show()
 
 
 ---
-## Multi-Dimensional Clustering
+## Clustering with KNN
 
 ```yaml
 type: "FullImageSlide"
@@ -94,6 +94,26 @@ key: "ca8826ad63"
 You may be familiar with clustering. K Nearest Neighbors (KNN) appears to do the job for us as you can see in this image and training a model will help in categorizing with which cluster this red dot belongs.
 
 But anomaly detection removes us a step from categorization and enters the realm of "what if this is erroneous or doesn't belong?". This categorization is actually a step past where you may detect this anomaly. Also you may opt to remove or include that point in your further analysis. Just because the point is different than the others, does not mean that it is unimportant.
+
+
+---
+## Let's Code a Clustering
+
+```yaml
+type: "FullCodeSlide"
+key: "8156f50927"
+```
+
+`@part1`
+```
+from sklearn.neighbors import KNeighborsClassifier
+neigh = KNeighborsClassifier(n_neighbors=2)
+neigh.fit(df[['perimeter_mean']], data['diagnosis'])
+```
+
+
+`@script`
+
 
 
 ---
