@@ -67,7 +67,7 @@ key: "acfcdcc26c"
 
 `@part2`
 ```
-#plot scatter plot
+#scatter plot
 plt.scatter(df['texture_mean'], df['smoothness_mean'])
 #display plot
 plt.show()
