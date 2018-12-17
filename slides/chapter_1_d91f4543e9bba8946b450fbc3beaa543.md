@@ -93,7 +93,7 @@ key: "ca8826ad63"
 `@script`
 You may be familiar with clustering. K Nearest Neighbors (KNN) appears to do the job for us as you can see in this image and training a model will help in categorizing with which cluster this red dot belongs.
 
-But anomaly detection removes us a step from categorization and enters the realm of "what if this is erroneous or doesn't belong?". This categorization is actually a step past where you may detect this anomaly. Also you may opt to remove or include that point in your further analysis.
+But anomaly detection removes us a step from categorization and enters the realm of "what if this is erroneous or doesn't belong?". This categorization is actually a step past where you may detect this anomaly. Also you may opt to remove or include that point in your further analysis. Just because the point is different than the others, does not mean that it is unimportant.
 
 
 ---
