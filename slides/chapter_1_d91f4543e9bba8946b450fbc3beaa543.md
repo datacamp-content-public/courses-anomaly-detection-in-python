@@ -23,7 +23,7 @@ At times, it'll be evident with one or a few outliers extending outside of a box
 
 
 ---
-## Quick Charts for Spotting the outliers
+## Quick Charts for Spotting the Outliers
 
 ```yaml
 type: "TwoColumns"
@@ -31,15 +31,24 @@ key: "f73e214a6d"
 ```
 
 `@part1`
+Bring in Pandas and Matplotlib for usage across this course.
 
+```
+#read dataset
+df=pd.read_csv('data.csv')
+#boxplot for perimeter mean
+plt.boxplot(df['perimeter_mean'])
+#display plot
+plt.show()
+```
 
 
 `@part2`
-
+![](https://assets.datacamp.com/production/repositories/4258/datasets/ce1af9f13f41b29c55b3808b373faeb536ce5561/boxplot_sample.png)
 
 
 `@script`
-
+I'm going to assume that you have these packages installed, pandas and matplotlib. As you can see here, a quick boxplot shows outliers to this feature, "Perimeter Mean." We're looking at one dimension of a much larger dataset. Also this these may be outliers but in comparison to their relation with other data points, we may not see them as distinctly or anomalous.
 
 
 ---
