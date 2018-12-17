@@ -17,7 +17,7 @@ title: Data Analyst
 
 
 `@script`
-Understanding how to spot an anomaly will be crucial as we peel back to the layers to detection in larger datasets. 
+Understanding how to spot an anomaly will be crucial as we peel back the layers of detection in larger datasets. 
 
 At times, it'll be evident with one or a few outliers extending outside of a boxplot. Or the anomaly will be present but far from associative clusters. That "distance" and logic behind its measurement will be uncovered in this chapter. 
 
@@ -91,7 +91,9 @@ key: "ca8826ad63"
 
 
 `@script`
-You may be familiar with clustering. K Nearest Neighbors (KNN)
+You may be familiar with clustering. K Nearest Neighbors (KNN) appears to do the job for us as you can see in this image and training a model will help in categorizing with which cluster this red dot belongs.
+
+But anomaly detection removes us a step from categorization and enters the realm of "what if this is erroneous or doesn't belong?". This categorization is actually a step past where you may detect this anomaly. Also you may opt to remove or include that point in your further analysis.
 
 
 ---
