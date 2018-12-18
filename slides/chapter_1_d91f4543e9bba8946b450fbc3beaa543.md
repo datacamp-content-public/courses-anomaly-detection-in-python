@@ -120,7 +120,28 @@ Taking the dataset, we've fit the model. Using the features, "texture_mean" and 
 
 
 ---
-## Final Slide
+## Under the Hood of Clustering
+
+```yaml
+type: "TwoColumns"
+key: "b82027bfe7"
+```
+
+`@part1`
+```
+```
+
+
+`@part2`
+
+
+
+`@script`
+That new point that may be introduced appears out of sync with the data we've seen so far. But how do we know and flag this potential anomaly. Bringing back the concept of Euclidean Distance, we need to apply that and measure it for our latest point.
+
+
+---
+## Let's Practice.
 
 ```yaml
 type: "FinalSlide"
@@ -128,5 +149,5 @@ key: "98f19739bd"
 ```
 
 `@script`
-
+Now it's your turn. Try applying the methodology. Focus on the underlying things that are happening while you code these exercises.
 
