@@ -147,7 +147,7 @@ This matrix will be the distance between each point and the other X data points.
 
 
 ---
-## Let's Practice.
+## Let's Practice
 
 ```yaml
 type: "FinalSlide"
