@@ -123,17 +123,21 @@ Taking the dataset, we've fit the model. Using the features, "texture_mean" and 
 ## Under the Hood of Clustering
 
 ```yaml
-type: "TwoColumns"
-key: "b82027bfe7"
+type: "FullCodeSlide"
+key: "8c66932f5f"
 ```
 
 `@part1`
 ```
+#import your library as necessary
+from scipy.spatial import distance_matrix
+#create a dataframe with the two features
+df2 = pd.DataFrame(df, columns=['texture_mean', 'smoothness_mean'])
+pd.DataFrame(distance_matrix(df2.values, df2.values), 
+index=df2.index, columns=df2.index)
 ```
 
-
-`@part2`
-
+![](https://assets.datacamp.com/production/repositories/4258/datasets/53ff9b110323a078426d995518181596fb982504/distance_matrix_sample.png)
 
 
 `@script`
