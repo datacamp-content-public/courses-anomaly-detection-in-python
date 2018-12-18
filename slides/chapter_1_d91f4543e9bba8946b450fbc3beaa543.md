@@ -106,14 +106,17 @@ key: "8156f50927"
 
 `@part1`
 ```
+#import the KNN package
 from sklearn.neighbors import KNeighborsClassifier
+#initiate the classifier and identify the number of clusters
 neigh = KNeighborsClassifier(n_neighbors=2)
-neigh.fit(df[['perimeter_mean']], data['diagnosis'])
+#fit the model with your list of features and classifying 
+neigh.fit(df[['texture_mean', 'smoothness_mean']], df['diagnosis'])
 ```
 
 
 `@script`
-
+Taking the dataset, we've fit the model. Using the features, "texture_mean" and "smoothness_mean", if a new data point is introduced, we can now predict which of the 2 clusters, it would belong to. This would the clustering and how to fit/predict a model. But what if a point is introduced that appears "odd."
 
 
 ---
