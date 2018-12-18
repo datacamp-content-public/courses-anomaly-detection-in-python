@@ -33,7 +33,7 @@ key: "f73e214a6d"
 ```
 
 `@part1`
-Bring in Pandas and Matplotlib for usage across this course.
+Bring in Pandas, Numpy and Matplotlib for usage across this course.
 
 ```
 #read dataset
