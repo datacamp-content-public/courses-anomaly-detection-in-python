@@ -133,17 +133,21 @@ key: "8c66932f5f"
 from scipy.spatial import distance_matrix
 #create a dataframe with the two features
 df2 = pd.DataFrame(df, columns=['texture_mean', 'smoothness_mean'])
-pd.DataFrame(distance_matrix(df2.values, df2.values), 
+matrix=pd.DataFrame(distance_matrix(df2.values, df2.values), 
 index=df2.index, columns=df2.index)
 ```
 
 ![](https://assets.datacamp.com/production/repositories/4258/datasets/53ff9b110323a078426d995518181596fb982504/distance_matrix_sample.png)
 
+```
+np.mean(matrix)
+```
+
 
 `@script`
 That new point that may be introduced appears out of sync with the data we've seen so far. But how do we know and flag this potential anomaly. Bringing back the concept of Euclidean Distance, we need to apply that and measure it for our latest point. 
 
-This matrix will be the distance between each point and the other X data points. And this is now in a pandas dataframe for us to manipulate and alter to isolate those points that seem odd or anomalous.
+This matrix will be the distance between each point and the other X data points. And this is now in a pandas dataframe for us to manipulate and alter to isolate those points that seem odd or anomalous. From this table, you can get the average distance for each point, simply applying np.mean() to the dataframe.
 
 
 ---
