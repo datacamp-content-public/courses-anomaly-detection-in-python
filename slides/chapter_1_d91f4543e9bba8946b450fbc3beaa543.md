@@ -50,7 +50,7 @@ plt.show()
 
 
 `@script`
-I'm going to assume that you have these packages installed, pandas and matplotlib. As you can see here, a quick boxplot shows outliers to this feature, "Perimeter Mean." We're looking at one dimension of a much larger dataset. Also this these may be outliers but in comparison to their relation with other data points, we may not see them as distinctly or anomalous.
+I'm going to assume that you have these packages installed, pandas, numpy and matplotlib. As you can see here, a quick boxplot shows outliers to this feature, "Perimeter Mean." We're looking at one dimension of a much larger dataset. Also this these may be outliers but in comparison to their relation with other data points, we may not see them as distinctly or anomalous.
 
 
 ---
@@ -68,14 +68,17 @@ key: "acfcdcc26c"
 `@part2`
 ```
 #scatter plot
-plt.scatter(df['texture_mean'], df['smoothness_mean'])
+plt.scatter(df['texture_mean'], 
+df['smoothness_mean'])
 #display plot
 plt.show()
 ```
 
 
 `@script`
+What happens here when you glance at this visual. The code here plots the texture_mean against the smoothness_mean. 
 
+You can see a pair of arrowed points that appear outlier and extend away from the clustered bunch. We need to spot them and then mathematically understand what we're seeing. We'll pull back some of the theoretical components in chapter one and use those across this chapter
 
 
 ---
