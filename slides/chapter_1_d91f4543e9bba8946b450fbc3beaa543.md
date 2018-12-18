@@ -148,7 +148,7 @@ distance_array = np.mean(matrix)
 
 
 `@script`
-That new point that may be introduced appears out of sync with the data we've seen so far. But how do we know and flag this potential anomaly. Bringing back the concept of Euclidean Distance, we need to apply that and measure it for our latest point. 
+Stepping back from categorization, we can look at the math underneath how the model is fit. That new point that may be introduced appears out of sync with the data we've seen so far. But how do we know and flag this potential anomaly. Bringing back the concept of Euclidean Distance, we need to apply that and measure it for our latest point. 
 
 This matrix will be the distance between each point and the other X data points. And this is now in a pandas dataframe for us to manipulate and alter to isolate those points that seem odd or anomalous. From this table, you can get the average distance for each point, simply applying np.mean() to the dataframe. 
 
